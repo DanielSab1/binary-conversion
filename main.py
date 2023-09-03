@@ -44,6 +44,8 @@ y = generate_zeros(len(x))
 
 
 # The last nasa will handled correctly because the for loop will end at index 0
+
+# Iterating reversed
 for i in range(len(x)-1, -1, -1):
     current_x = int(x[i])
     current_y = int(y[i])
